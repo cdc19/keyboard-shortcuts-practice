@@ -1,1 +1,1 @@
-exports.URL = process.env.URL
+exports.URL = process.env.URL;
