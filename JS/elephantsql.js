@@ -2,7 +2,7 @@ var pg = require('pg');
 //or native libpq bindings
 //var pg = require('pg').native
 
-var conString = "INSERT_YOUR_POSTGRES_URL_HERE" //Can be found in the Details page
+var conString = "postgres://dmbctsbd:D0kDB8zje0ZIasjUibs-gMAGQWv9kNiY@salt.db.elephantsql.com:5432/dmbctsbd" //Can be found in the Details page
 var client = new pg.Client(conString);
 client.connect(function(err) {
   if(err) {
